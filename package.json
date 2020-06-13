@@ -1,0 +1,22 @@
+{
+  "name": "cpc-lsp",
+  "version": "1.0.0",
+  "description": "CpcdosC+ Language Server",
+  "main": "index.js",
+  "repository": "https://github.com/SPinti-Software/cpc-lsp",
+  "author": "d0p1",
+  "license": "BSD-3",
+  "private": true,
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "vscode-languageserver": "^6.1.1",
+    "vscode-languageserver-textdocument": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "typescript": "^3.9.5"
+  }
+}
